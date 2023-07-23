@@ -5,13 +5,17 @@ sample_file = './sample_files/programming_language_wikipedia.txt'
 # demo 1
 my_file = open(sample_file, 'r')
 content = my_file.read()
+print(my_file.closed)
 my_file.close()
+print(my_file.closed)
+print(content)
 my_content_list = content.split('\n\n')
 
 # demo 2
 # my_file = open(sample_file, 'r')
 # content = my_file.readlines()
 # my_file.close()
+# print(type(content))
 # print(content)
 
 # demo 3
@@ -25,7 +29,7 @@ my_content_list = content.split('\n\n')
 # my_file = open(sample_file, 'r')
 # content = my_file.read()
 # print(content)
-# # my_file.seek(0)
+#  my_file.seek(0)
 # print("-----")
 # content2 = my_file.read()
 #

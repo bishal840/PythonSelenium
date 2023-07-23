@@ -1,0 +1,15 @@
+dict1={1:"kas","bis":23,"jakd":"tqaj",78:90}
+print(type(dict1.keys()))
+print(type(dict1.values()))
+print(type(dict1.items()))
+print(dict1.items())
+print(dict1.setdefault("SACHIN"))
+print(dict1)
+print(dict1.setdefault("VIRAT",1000))
+print(dict1)
+# print(dict1)
+# print(dict1[78])
+# print(dict1.get("bis"))
+print(type(dict1.keys()))
+print(type(dict1.values()))
+
